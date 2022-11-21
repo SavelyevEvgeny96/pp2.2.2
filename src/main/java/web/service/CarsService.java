@@ -1,13 +1,14 @@
 package web.service;
 
 
+import org.springframework.stereotype.Service;
 import web.classes.Car;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
+@Service
 public class CarsService {
-    private static List<Car> carsList(){
+    private  List<Car> carsList(){
         List<Car> cars = new ArrayList<>();
         cars.add(new Car("Citroen", "c4", 2007));
         cars.add(new Car("LADA", "Largus", 2010));
@@ -19,7 +20,7 @@ public class CarsService {
         return cars;
     }
 
-    public static List<Car> getCars(int num){
+    public  List<Car> getCars(int num){
         List<Car> outputList = null;
         if (num > -1 && num < 6) {
             outputList = carsList().stream().limit(num).collect(Collectors.toList());
