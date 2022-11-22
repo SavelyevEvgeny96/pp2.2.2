@@ -6,12 +6,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import web.service.CarsService;
+import web.service.CarsServiceImpl;
 
 @Controller
 public class CarsController {
     @Autowired
-    CarsService carsService;
+    CarsServiceImpl carsService;
 
     @GetMapping(value = "/cars")
     public String printCarsList(@RequestParam(value="count", required=false, defaultValue= "6") Integer count, Model model) {

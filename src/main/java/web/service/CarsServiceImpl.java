@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 @Service
-public class CarsService {
-    private  List<Car> carsList(){
+public class CarsServiceImpl implements CarService{
+    public List<Car> carsList(){
         List<Car> cars = new ArrayList<>();
         cars.add(new Car("Citroen", "c4", 2007));
         cars.add(new Car("LADA", "Largus", 2010));
