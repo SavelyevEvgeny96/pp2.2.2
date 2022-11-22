@@ -10,27 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bd94e2f-ab78-417f-96a2-a10b8b8790fa" name="Changes" comment="метод не статик и сервис сделал бином">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/service/CarsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/service/CarsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/spring-aop-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/spring-beans-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/spring-context-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/spring-core-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/spring-expression-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/spring-jcl-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/spring-web-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/spring-webmvc-5.3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/thymeleaf-3.0.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/thymeleaf-spring5-3.0.14.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/pages/cars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarsServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +173,9 @@
       <workItem from="1668972349174" duration="5000" />
       <workItem from="1669061206525" duration="533000" />
       <workItem from="1669094743794" duration="33000" />
-      <workItem from="1669098843633" duration="313000" />
+      <workItem from="1669098843633" duration="379000" />
+      <workItem from="1669122577762" duration="750000" />
+      <workItem from="1669124279172" duration="2676000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1668880685209</created>
@@ -206,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669061704855</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="метод не статик и сервис сделал бином">
+      <created>1669099188847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669099188847</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
