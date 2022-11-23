@@ -9,11 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bd94e2f-ab78-417f-96a2-a10b8b8790fa" name="Changes" comment="метод не статик и сервис сделал бином">
+    <list default="true" id="9bd94e2f-ab78-417f-96a2-a10b8b8790fa" name="Changes" comment="обавил саб лист в контроллере тоже">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/service/CarsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/CarsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/CarsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/service/CarsService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +178,8 @@
       <workItem from="1669094743794" duration="33000" />
       <workItem from="1669098843633" duration="379000" />
       <workItem from="1669122577762" duration="750000" />
-      <workItem from="1669124279172" duration="2676000" />
+      <workItem from="1669124279172" duration="3173000" />
+      <workItem from="1669231022581" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1668880685209</created>
@@ -198,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669099188847</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="обавил саб лист в контроллере тоже">
+      <created>1669149233267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669149233267</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +229,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="метод не статик и сервис сделал бином" />
-    <option name="LAST_COMMIT_MESSAGE" value="метод не статик и сервис сделал бином" />
+    <MESSAGE value="обавил саб лист в контроллере тоже" />
+    <option name="LAST_COMMIT_MESSAGE" value="обавил саб лист в контроллере тоже" />
   </component>
 </project>

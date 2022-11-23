@@ -16,10 +16,8 @@ public class CarsController {
     private Integer toIndex;
 
     @GetMapping(value = "/cars")
-    public String printCarsList(@RequestParam(defaultValue = "6") Integer forIndex,Integer toIndex, Model model) {
-        this.forIndex = forIndex;
-        this.toIndex = toIndex;
-        model.addAttribute("cars", carsService.getCarList(forIndex,toIndex));
+    public String printCarsList(@RequestParam(value = "count",defaultValue = "6",required = false) int count, Model model) {
+        model.addAttribute("cars", carsService.getCarList(count,carsService.getResultList()));
         return "cars";
     }
 }
