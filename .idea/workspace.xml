@@ -9,14 +9,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bd94e2f-ab78-417f-96a2-a10b8b8790fa" name="Changes" comment="обавил саб лист в контроллере тоже">
+    <list default="true" id="9bd94e2f-ab78-417f-96a2-a10b8b8790fa" name="Changes" comment="сделал саб лист теперь точно все">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/classes/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/classes/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/service/CarsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/CarsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/CarsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/service/CarsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/classes/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/config/AppInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/service/CarsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/classes/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/config/AppInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/CarsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/service/CarsServiceImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +78,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RODNOY/IdeaProjects/PP_2_2_2_spring-mvc&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -179,7 +195,12 @@
       <workItem from="1669098843633" duration="379000" />
       <workItem from="1669122577762" duration="750000" />
       <workItem from="1669124279172" duration="3173000" />
-      <workItem from="1669231022581" duration="1202000" />
+      <workItem from="1669231022581" duration="1517000" />
+      <workItem from="1669242617786" duration="508000" />
+      <workItem from="1669325769569" duration="74000" />
+      <workItem from="1669666672643" duration="1929000" />
+      <workItem from="1669816526432" duration="1063000" />
+      <workItem from="1670006138670" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1668880685209</created>
@@ -209,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669149233267</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="сделал саб лист теперь точно все">
+      <created>1669232432945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669232432945</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +258,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="метод не статик и сервис сделал бином" />
     <MESSAGE value="обавил саб лист в контроллере тоже" />
-    <option name="LAST_COMMIT_MESSAGE" value="обавил саб лист в контроллере тоже" />
+    <MESSAGE value="сделал саб лист теперь точно все" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал саб лист теперь точно все" />
   </component>
 </project>

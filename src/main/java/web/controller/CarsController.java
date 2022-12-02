@@ -10,14 +10,17 @@ import web.service.CarsServiceImpl;
 
 @Controller
 public class CarsController {
+    private final CarsServiceImpl carsService;
+
     @Autowired
-    CarsServiceImpl carsService;
-    private Integer forIndex;
-    private Integer toIndex;
+    public CarsController(CarsServiceImpl carsService) {
+        this.carsService = carsService;
+    }
+
 
     @GetMapping(value = "/cars")
-    public String printCarsList(@RequestParam(value = "count",defaultValue = "6",required = false) int count, Model model) {
-        model.addAttribute("cars", carsService.getCarList(count,carsService.getResultList()));
+    public String printCarsList(@RequestParam(value = "count", defaultValue = "5", required = false) int count, Model model) {
+        model.addAttribute("cars", carsService.getCarList(count, carsService.getResultList()));
         return "cars";
     }
 }

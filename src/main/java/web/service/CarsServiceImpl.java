@@ -5,11 +5,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
 import web.classes.Car;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
 public class CarsServiceImpl implements CarService {
-    private final List<Car> resultList = null;
+    private final List<Car> resultList = new ArrayList<>();
 
 
     {
@@ -23,15 +24,16 @@ public class CarsServiceImpl implements CarService {
 
     }
 
-    @Override
     public List<Car> getResultList() {
         return resultList;
     }
 
     @Override
     public List<Car> getCarList(int count, List<Car> fullList) {
-        return (count >= 5) ? fullList : fullList.subList(0, count);
-
+        if (count >= 5) {
+            return resultList;
+        }
+        return fullList.subList(0, count);
     }
 
 }

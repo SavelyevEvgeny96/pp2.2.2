@@ -8,6 +8,4 @@ public interface CarService {
 
 
     List<Car> getCarList(int count, List<Car> fullList);
-
-    List<Car> getResultList();
 }

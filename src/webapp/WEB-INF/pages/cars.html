@@ -12,10 +12,11 @@
     <th>Модель</th>
     <th>Год выпуска</th>
   </tr>
+
   <tr th:each="car : ${cars}">
     <td th:text="${car.getManufacturer()}">VALUE</td>
     <td th:text="${car.getModel()}">VALUE</td>
-    <td th:text="${car.getEarRelease()}">VALUE</td>
+    <td th:text="${car.getYear()}">VALUE</td>
   </tr>
 </table>
 

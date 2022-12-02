@@ -1,15 +1,28 @@
 package web.classes;
 
+import javax.persistence.*;
 
+@Entity
+@Table(name = "cars")
 public class Car {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @Column(name = "manufacturer")
     private String manufacturer;
+    @Column(name = "model")
     private String model;
-    private int earRelease;
+    @Column(name = "year")
+    private int year;
 
-    public Car(String manufacturer, String model, int earRelease) {
+    public Car(String manufacturer, String model, int year) {
         this.manufacturer = manufacturer;
         this.model = model;
-        this.earRelease = earRelease;
+        this.year = year;
+    }
+
+    public Car() {
+
     }
 
     public String getManufacturer() {
@@ -28,11 +41,19 @@ public class Car {
         this.model = model;
     }
 
-    public int getEarRelease() {
-        return earRelease;
+    public int getYear() {
+        return year;
     }
 
-    public void setEarRelease(int earRelease) {
-        this.earRelease = earRelease;
+    public void setYear(int year) {
+        this.year = year;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+
+    public Long getId() {
+        return id;
     }
 }
